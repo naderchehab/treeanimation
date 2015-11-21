@@ -5,4 +5,4 @@ Stumbled upon these interesting shapes while playing around with trees in javasc
 
 
 ### Demo
-* http://treeanimation.clanteam.com/
+* http://treeanimation.herokuapp.com/

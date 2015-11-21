@@ -31,26 +31,26 @@ treeanimation.main = function() {
 	
 	var animate = function() {
 		if (num > 180) {
-			ctx.fillText("Angle: 180° (The end)", 10, 50);
+			ctx.fillText("Angle: 180 degrees", 10, 50);
 			return;
 		}
 			
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 		switch(num) {
 			case 10:
-				ctx.fillText("Angle: 10° (Broccoli)", 10, 50);
+				ctx.fillText("Angle: 10 degrees", 10, 50);
 				duration = 1500;
 				break;
 			case 60:
-				ctx.fillText("Angle: 60° (Honeycomb)", 10, 50);
+				ctx.fillText("Angle: 60 degrees", 10, 50);
 				duration = 1500;
 				break;
 			case 90:
-				ctx.fillText("Angle: 90° (Grid)", 10, 50);
+				ctx.fillText("Angle: 90 degrees", 10, 50);
 				duration = 1500;
 				break;
 			case 120:
-				ctx.fillText("Angle: 120° (Diamonds)", 10, 50);
+				ctx.fillText("Angle: 120 degrees", 10, 50);
 				duration = 1500;
 			break;
 			default:
